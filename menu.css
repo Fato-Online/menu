@@ -14,7 +14,7 @@
     left: 0 ;
     z-index: 9999 ;
     width: 100% ;
-    position:absolute ;
+    position: absolute ;
     transition: all 0.5s ease ;
     font: italic 300 32px/34px 'Stag', Arial, Verdana, Helvetica, sans-serif;
 }
