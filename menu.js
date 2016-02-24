@@ -1,4 +1,4 @@
-$(document).ready(function(){
+window.onload = function() {
     $("#menu-open").click(function() {
         $(".menu-header").css("top", 0);
         $(this).css("display", "none");
@@ -10,4 +10,4 @@ $(document).ready(function(){
         $(this).css("display", "none");
         $("#menu-open").css("display", "block");
     });
-});
+};
