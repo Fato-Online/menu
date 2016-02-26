@@ -9,6 +9,7 @@ $("#menu-close").click(function() {
     $(this).css("display", "none");
     $("#menu-open").css("display", "block");
 });
-$( document ).ready(function() {
-    console.log( "ready!" );
+
+$( window ).load(function() {
+    alert('asd');
 });
