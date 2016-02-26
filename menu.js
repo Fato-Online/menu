@@ -9,3 +9,7 @@ $("#menu-close").click(function() {
     $(this).css("display", "none");
     $("#menu-open").css("display", "block");
 });
+
+window.onload = function() {
+    alert('menu');
+}
