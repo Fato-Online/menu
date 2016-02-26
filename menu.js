@@ -11,5 +11,5 @@ window.onload = function() {
         $("#menu-open").css("display", "block");
     });
 
-    alert('asd');
+    $('#pre-loading').fadeOut('slow');
 };
