@@ -1,3 +1,4 @@
+window.onload = function() {
 var width = $( window ).width();
 
 $("#menu-open").click(function() {
@@ -15,3 +16,7 @@ $("#menu-close").click(function() {
     $(this).css("display", "none");
     $("#menu-open").css("display", "block");
 });
+
+    $('#pre-loading').fadeOut('slow');
+};
+>>>>>>> db1c896998f77363a78311a13a0a53c2bbfe277e
