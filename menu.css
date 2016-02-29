@@ -14,7 +14,7 @@
     left: 0 ;
     z-index: 9999 ;
     width: 100% ;
-    position: absolute ;
+    position:absolute ;
     transition: all 0.5s ease ;
     font: italic 100 32px/34px 'Stag', Arial, Verdana, Helvetica, sans-serif;
 }
@@ -95,6 +95,25 @@ a#menu-close {
     width: 39px;
     padding: 16px 4px 0px 16px;
     vertical-align: inherit;
+}
+
+#pre-loading{
+    height: 100%;
+    position: fixed;
+    background: #e0a50f;
+    z-index: 999;
+    width: 100%;
+}
+
+#pre-loading #load-gif{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    width: 64px;
+    height: 64px;
 }
 
 /*CELULAR RETRATO*/
