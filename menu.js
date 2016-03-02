@@ -11,6 +11,7 @@ window.onload = function() {
     });
 
     $("#menu-close").click(function() {
+
         if (width<=480) {
             $(".menu-header").css("top", -240);
         } else{
