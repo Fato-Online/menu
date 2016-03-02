@@ -97,7 +97,7 @@ a#menu-close {
     vertical-align: inherit;
 }
 
-/*CELULAR RETRATO*/
+/*CELULAR RETRATO */
 @media (max-width: 479px) {
     .menu-header {
         top: -240px ;
