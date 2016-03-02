@@ -22,5 +22,5 @@ window.onload = function() {
         $("#menu-open").css("display", "block");
     });
 
-    $('#pre-loading').fadeOut('slow');
+    $('#pre-loading').fadeOut('slow').remove();
 };
